@@ -1,7 +1,7 @@
 // DEPENDENCIES
 const express = require("express");
 const transactionRoutes = express.Router();
-const transactionsArr = require("../models/transactions.js");
+const transactionsArr = require("../models/transaction.js");
 
 // CONTROLLER ROUTES
 

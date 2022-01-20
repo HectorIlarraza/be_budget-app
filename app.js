@@ -1,7 +1,7 @@
 // DEPENDENCIES
 const express = require("express");
 const app = express();
-const transactionsController = require("./controllers/transactionsControllers.js");
+const transactionsController = require("./controllers/transactionsController.js");
 const cors = require("cors");
 
 // MIDDLEWARE
