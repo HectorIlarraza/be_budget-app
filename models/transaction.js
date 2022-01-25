@@ -1,51 +1,51 @@
 module.exports = [
     {
       date: "January 1",
-      item_name: "Rent",
-      amount: -500,
-      from: "Hector's bank account 🥲",
+      itemName: "Bowser's Castle Renovations",
+      amount: -500000,
+      from: "Castle Vault",
       category: ""
     },
     {
       date: "January 15",
-      item_name: "Monthly Subscriptions",
-      amount: -50,
-      from: "Spotify, Netflix, Hulu, etc., etc.",
+      itemName: "Robbing",
+      amount: 5000,
+      from: "Luigi",
       category: ""
     },
     {
       date: "January 16",
-      item_name: "Income",
-      amount: 2000,
-      from: "Google",
+      itemName: "Pillaging",
+      amount: 300000,
+      from: "Mushroom Kingdom Citizens",
       category: ""
     },
     {
       date: "January 16",
-      item_name: "Savings",
-      amount: -1000,
-      from: "Chase",
+      itemName: "Selling Fake Red Mushrooms",
+      amount: 50000,
+      from: "Black Koopa Market",
       category: ""
     },
     {
       date: "January 17",
-      item_name: "Credit Card Payment",
-      amount: -200,
-      from: "Capital One",
+      itemName: "Invincible Stars crypto Investing",
+      amount: 700000,
+      from: "Super Mario Galaxy Trading Firm",
       category: ""
     },
     {
       date: "January 18",
-      item_name: "Groceries",
-      amount: -150,
-      from: "Key Foods",
+      itemName: "Yoshi Racing Gambling Track Losts",
+      amount: -200000,
+      from: "Rainbow Road Resort",
       category: ""
     },
     {
       date: "January 23",
-      item_name: "Internet & Phone",
-      amount: -220,
-      from: "Verizon",
+      itemName: "Browser JR Child Support",
+      amount: -10000,
+      from: "Princess Peach",
       category: ""
     },
   ];

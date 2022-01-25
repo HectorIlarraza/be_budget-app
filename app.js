@@ -10,7 +10,7 @@ app.use(express.json());
 
 // ROUTES
 app.get("/", (req,res) => {
-    res.send("Hello World");
+    res.send("Welcome to my Budget App");
 });
 
 app.use("/transactions", transactionsController);

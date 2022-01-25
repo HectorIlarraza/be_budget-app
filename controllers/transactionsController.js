@@ -41,16 +41,17 @@ transactionRoutes.put("/:index", (req, res) => {
     const { index } = req.params;
     if(!transactionsArr[index]){
         return res.status(422).json({error: "Not found"});
-    }
+    } 
 
-    let { item_name, amount, date, from, category } = req.body;
-    if(item_name && amount && date && from !== undefined && category){
+    let { date, itemName, amount, from, category } = req.body;
+    if(date && itemName && amount && from && category){
         transactionsArr[index] = {
-            item_name, amount, date, from, category
+            date, itemName, amount, from, category
         };
         return res.json(transactionsArr[index]);
     }
-    res.status(422).json({error: "Please provide all fields"});
+    res.status(422).json({error: "Please provide all fields"
+});
 });
 
 module.exports = transactionRoutes;
